@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+![Federated Learning](https://img.shields.io/badge/Federated-Learning-green)
+![Status](https://img.shields.io/badge/Status-Active%20Research-orange)
+
 ## 🚀 Key Results (At a Glance)
 
 This repository demonstrates the effectiveness of **Federated Learning (FedAvg)** for
@@ -19,7 +24,7 @@ This repository demonstrates the effectiveness of **Federated Learning (FedAvg)*
 ### 📈 Training & Evaluation Results
 
 #### Centralized Model – Training Loss
-![Centralized Training Loss](results/plots/train_loss.png)
+![Centralized Training Loss](results/plots/loss.png)
 
 #### Centralized Model – Test Accuracy
 ![Centralized Accuracy](results/plots/accuracy.png)
@@ -32,7 +37,25 @@ This repository demonstrates the effectiveness of **Federated Learning (FedAvg)*
 
 ---
 
+## 🔁 Reproducibility
+
+All experiments in this repository can be reproduced using the provided scripts.
+Random seeds are fixed where applicable, and the same train/test splits are used
+for centralized and federated evaluations.
+
+Environment:
+- Python 3.9+
+- PyTorch
+- NumPy, Pandas, Scikit-learn
+
+
 ### 🧠 Key Takeaway
 This study validates that **privacy-preserving federated learning** can be effectively applied
 to **predictive maintenance in semiconductor manufacturing**, achieving strong performance
 without sharing sensitive sensor data.
+
+## 🏗 System Architecture
+
+![Architecture Diagram](docs/architecture.png)
+
+
