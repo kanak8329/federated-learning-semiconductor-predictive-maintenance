@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Data (optional – see note below)
+# Uncomment if dataset is too large
+# data/secom.data
+# data/secom_labels.data
+# data/secom_clean.csv
+
+# Results
+results/*.pt
